@@ -1,0 +1,28 @@
+{
+  "name": "tsx-pipe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "normal": "tsx index.ts | pino-pretty",
+    "watch": "tsx watch index.ts | pino-pretty"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicholaiii/tsx-pipe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nicholaiii/tsx-pipe/issues"
+  },
+  "homepage": "https://github.com/Nicholaiii/tsx-pipe#readme",
+  "dependencies": {
+    "@types/node": "^18.11.19",
+    "pino": "^8.8.0",
+    "pino-pretty": "^9.1.1",
+    "tsx": "^3.12.2",
+    "typescript": "^4.9.5"
+  }
+}
